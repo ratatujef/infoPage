@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+ul{
+    list-style-type: none;
+  }
+a{
+text-decoration: none;
+color: #fff;    
+}
+
+body {
+background-color: #20202d;
+}
+
+.container{
+max-width: 945px;
+margin: auto
+}
+.hero{
+    padding-top: 3.12rem;
+    &-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .social{
+            display: flex;
+            align-items: center;
+            &__item{
+                margin-left: 1.25rem;
+            }
+        }
+    }
+}   .hero-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 105px;
+        .text{
+            font-style: normal;
+            width: 50%;
+            .subheader{
+                font-weight: normal;
+                font-size: 1.5em;
+                line-height: 140%;
+                color: #FFBB01;
+            }
+            .title{
+                margin-top: .87rem;
+                font-weight: bold;
+                font-size: 3.125em;
+                line-height: 118%;
+                color: #FFFFFF;
+            }
+            .descr{
+                font-weight: normal;
+                font-size: 1em;
+                line-height: 175%;
+                color: #FFFFFF;
+            }
+            .button{
+                margin-top: 2.37rem;
+                padding:24px 41px;
+                border: none;
+                background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+                box-shadow: 0px 4px 0px #B68500;
+                border-radius: 5px 5px 10px 10px;
+                font-weight: bold;
+                font-size: 0.75em;
+                line-height: 116%;
+                text-align: center;
+                text-transform: uppercase;
+                color: #2E2E30;
+                cursor: pointer;
+            }
+        }
+        .avatar{
+            width: 389px;
+            height: 389px;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+}
+
