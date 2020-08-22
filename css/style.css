@@ -3,7 +3,7 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   outline: none;
 }
 
@@ -85,18 +85,18 @@ body {
   font-weight: normal;
   font-size: 1.5em;
   line-height: 140%;
-  color: #FFBB01;
+  color: #ffbb01;
 }
 
 .title {
   font-weight: bold;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 2.25em;
   line-height: 116%;
 }
 
 .title_hero {
-  margin-top: .87rem;
+  margin-top: 0.87rem;
   font-size: 3.125em;
   line-height: 118%;
 }
@@ -104,31 +104,31 @@ body {
 .title_modal {
   font-size: 1.5em;
   line-height: 116%;
-  color: #2E2E30;
+  color: #2e2e30;
 }
 
 .descr {
   font-weight: normal;
   font-size: 1em;
   line-height: 175%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .button {
   margin-top: 2.37rem;
   padding: 24px 41px;
   border: none;
-  background: -webkit-gradient(linear, left top, left bottom, from(#FDDE76), to(#FFBB01));
-  background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
-  -webkit-box-shadow: 0px 4px 0px #B68500;
-          box-shadow: 0px 4px 0px #B68500;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fdde76), to(#ffbb01));
+  background: linear-gradient(180deg, #fdde76 0%, #ffbb01 100%);
+  -webkit-box-shadow: 0px 4px 0px #b68500;
+          box-shadow: 0px 4px 0px #b68500;
   border-radius: 5px 5px 10px 10px;
   font-weight: bold;
   font-size: 0.75em;
   line-height: 116%;
   text-align: center;
   text-transform: uppercase;
-  color: #2E2E30;
+  color: #2e2e30;
   cursor: pointer;
 }
 
@@ -151,7 +151,7 @@ body {
   font-weight: bold;
   font-size: 2.25em;
   line-height: 2.62em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .features__block {
@@ -255,7 +255,7 @@ body {
   font-weight: bold;
   font-size: 1.5em;
   line-height: 116%;
-  color: #FFFFFF;
+  color: #ffffff;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
@@ -286,7 +286,7 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  border: 2px solid #FFBB01;
+  border: 2px solid #ffbb01;
   margin: 0 5px;
 }
 
@@ -303,9 +303,9 @@ body {
   max-width: 380px;
   height: 408px;
   background-color: #fff;
-  background: #FFFFFF;
-  -webkit-box-shadow: -5px 5px 0px #FFC41D;
-          box-shadow: -5px 5px 0px #FFC41D;
+  background: #ffffff;
+  -webkit-box-shadow: -5px 5px 0px #ffc41d;
+          box-shadow: -5px 5px 0px #ffc41d;
   border-radius: 5px;
   padding: 2.5rem 2.25rem 2.8rem 2.25rem;
 }
@@ -321,7 +321,7 @@ body {
 
 .form__input {
   width: 100%;
-  background: #F8F8F8;
+  background: #f8f8f8;
   -webkit-box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
           box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
   border-radius: 5px;
@@ -368,7 +368,7 @@ body {
   font-weight: bold;
   font-size: 1.5em;
   line-height: 116%;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -393,7 +393,7 @@ body {
   font-weight: normal;
   font-size: 1em;
   line-height: 118%;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-right: 2rem;
 }
 
@@ -429,7 +429,7 @@ body {
   font-size: 0.93em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #A5A5A5;
+  color: #a5a5a5;
 }
 
 .overlay {
@@ -454,8 +454,8 @@ body {
           transform: translate(-50%, -50%);
   background: #fff;
   width: 30%;
-  -webkit-box-shadow: -5px 5px 0px #FFC41D;
-          box-shadow: -5px 5px 0px #FFC41D;
+  -webkit-box-shadow: -5px 5px 0px #ffc41d;
+          box-shadow: -5px 5px 0px #ffc41d;
   border-radius: 5px;
   text-align: center;
   padding: 1rem;
@@ -467,7 +467,7 @@ body {
 }
 
 .modal__descr a {
-  color: #2E2E30;
+  color: #2e2e30;
   text-decoration: underline;
   font-size: 1.1em;
 }
@@ -578,11 +578,12 @@ body {
   .title {
     font-size: 19px;
     line-height: 22px;
-    text-align: center;
+    text-align: left;
   }
   .title_hero {
     font-size: 1.5em;
     margin-top: 0.3em;
+    text-align: center;
   }
   .button {
     margin-top: 34px;
@@ -622,9 +623,10 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-left: 0;
   }
   .slider__subtitle {
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     line-height: 21px;
   }
@@ -642,9 +644,18 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .contacts__text {
+    margin-left: 0;
+  }
+  .contacts__politic {
+    margin-top: 1.5rem;
+  }
+  footer.section {
+    padding-left: 10px;
+  }
   .footer__form {
     width: 110%;
-    padding: .5rem;
+    padding: 0.5rem;
     height: 390px;
   }
   .form__title {
