@@ -105,7 +105,10 @@ body {
   width: 389px;
   height: 389px;
   border-radius: 50%;
-  background-color: #fff;
+  border: 2px solid #fff;
+  background: url(../img/avatar.jpg) center center/cover no-repeat; 
+
+
 }
 
 .features {
@@ -155,6 +158,7 @@ body {
   &__img {
     flex-basis: 35%;
     max-width: 338px;
+    width: 100%;
   }
   &__description {
     flex-basis: 55%;
